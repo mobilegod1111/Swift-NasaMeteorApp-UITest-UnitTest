@@ -7,6 +7,7 @@ If its running via simulator no worries, else if with real device take care to a
 
 This test project is regarding NASA Meteor landing wth pin map location. 
 The data points are available via the NASA API: 
+
 ✔ view: https://data.nasa.gov/view/ak9y-cwf9  
 ✔ documentation: https://dev.socrata.com/foundry/data.nasa.gov/y77d-th95  
 ✔ json: https://data.nasa.gov/resource/y77d-th95.json  
