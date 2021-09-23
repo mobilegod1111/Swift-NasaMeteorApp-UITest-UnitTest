@@ -1,0 +1,6 @@
+framework module Pods_Amazing_meteor_Amazing_meteorUITests {
+  umbrella header "Pods-Amazing meteor-Amazing meteorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

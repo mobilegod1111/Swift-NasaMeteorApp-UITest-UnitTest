@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A03651C26FACF42008F5B0F /* StoreDataMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A03651B26FACF42008F5B0F /* StoreDataMgr.swift */; };
+		8A0486B126F97FC800FE4D50 /* MeteorMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0486B026F97FC800FE4D50 /* MeteorMapView.swift */; };
+		8A10F9D626FC235600A0D8BB /* MeteorModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10F9D526FC235600A0D8BB /* MeteorModelTest.swift */; };
+		8A10F9D826FC2F8000A0D8BB /* MeteorViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A10F9D726FC2F8000A0D8BB /* MeteorViewModelTest.swift */; };
+		8A2FB85026F8C1D3003824E5 /* Amazing_meteorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FB84F26F8C1D3003824E5 /* Amazing_meteorApp.swift */; };
+		8A2FB85226F8C1D3003824E5 /* MeteorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FB85126F8C1D3003824E5 /* MeteorsView.swift */; };
+		8A2FB85426F8C1D9003824E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FB85326F8C1D9003824E5 /* Assets.xcassets */; };
+		8A2FB85726F8C1D9003824E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2FB85626F8C1D9003824E5 /* Preview Assets.xcassets */; };
+		8A2FB86226F8C1D9003824E5 /* Amazing_meteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FB86126F8C1D9003824E5 /* Amazing_meteorTests.swift */; };
+		8A2FB86D26F8C1D9003824E5 /* Amazing_meteorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FB86C26F8C1D9003824E5 /* Amazing_meteorUITests.swift */; };
+		8A2FB87C26F8C79E003824E5 /* MeteorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FB87B26F8C79E003824E5 /* MeteorModel.swift */; };
+		8A2FB87E26F8C9A7003824E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FB87D26F8C9A7003824E5 /* CardView.swift */; };
+		8A645C9726FB695C00EC0658 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645C9626FB695C00EC0658 /* Color+Extension.swift */; };
+		8A645C9926FB697400EC0658 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645C9826FB697400EC0658 /* UIColor+Extension.swift */; };
+		8A645C9B26FB699800EC0658 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645C9A26FB699800EC0658 /* String+Extension.swift */; };
+		8A645C9D26FB69B600EC0658 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645C9C26FB69B600EC0658 /* Date+Extension.swift */; };
+		8A645C9F26FB6A5400EC0658 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645C9E26FB6A5400EC0658 /* Place.swift */; };
+		8A645CA126FB6A8900EC0658 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645CA026FB6A8900EC0658 /* GeoLocation.swift */; };
+		8A645CA326FB6B2500EC0658 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645CA226FB6B2500EC0658 /* Font+Extension.swift */; };
+		8A645CA526FB6D9000EC0658 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645CA426FB6D9000EC0658 /* Int+Extension.swift */; };
+		8A645CA726FB6F1E00EC0658 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A645CA626FB6F1E00EC0658 /* UIFont+Extension.swift */; };
+		8AECA21D26FB1B7300E476F5 /* MeteorFavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AECA21C26FB1B7300E476F5 /* MeteorFavoritesView.swift */; };
+		8AECA21F26FB3E3D00E476F5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AECA21E26FB3E3D00E476F5 /* MainView.swift */; };
+		8AF97B0F26FCAF4100ACB0A3 /* GeoLocationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF97B0E26FCAF4100ACB0A3 /* GeoLocationTest.swift */; };
+		8AFE99FE26FC6CEC006D103E /* StoreDataMgrTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE99FD26FC6CEC006D103E /* StoreDataMgrTest.swift */; };
+		8AFFE81826FA3B5200F2033A /* MeteorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFFE81726FA3B5200F2033A /* MeteorViewModel.swift */; };
+		92BE373FEDAD6F21742BC565 /* Pods_Amazing_meteor_Amazing_meteorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F808485C9BCDD107D82FB571 /* Pods_Amazing_meteor_Amazing_meteorUITests.framework */; };
+		C67A9A68B61850A2BBDB4271 /* Pods_Amazing_meteor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375F3DA2D5B7FA79A9964F58 /* Pods_Amazing_meteor.framework */; };
+		E87C23A5598A066276DBCE17 /* Pods_Amazing_meteorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 578E1F866D2D6CCB5B585DE6 /* Pods_Amazing_meteorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A2FB85E26F8C1D9003824E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A2FB84426F8C1D3003824E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2FB84B26F8C1D3003824E5;
+			remoteInfo = "Amazing meteor";
+		};
+		8A2FB86926F8C1D9003824E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A2FB84426F8C1D3003824E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A2FB84B26F8C1D3003824E5;
+			remoteInfo = "Amazing meteor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		375F3DA2D5B7FA79A9964F58 /* Pods_Amazing_meteor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amazing_meteor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C6FE6CAD9B4EC99AFF8061 /* Pods-Amazing meteor-Amazing meteorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazing meteor-Amazing meteorUITests.release.xcconfig"; path = "Target Support Files/Pods-Amazing meteor-Amazing meteorUITests/Pods-Amazing meteor-Amazing meteorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		539E13E9C041583F6E149E42 /* Pods-Amazing meteorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazing meteorTests.release.xcconfig"; path = "Target Support Files/Pods-Amazing meteorTests/Pods-Amazing meteorTests.release.xcconfig"; sourceTree = "<group>"; };
+		578E1F866D2D6CCB5B585DE6 /* Pods_Amazing_meteorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amazing_meteorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F7DDCC3617552AD5B37C16 /* Pods-Amazing meteorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazing meteorTests.debug.xcconfig"; path = "Target Support Files/Pods-Amazing meteorTests/Pods-Amazing meteorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A03651B26FACF42008F5B0F /* StoreDataMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDataMgr.swift; sourceTree = "<group>"; };
+		8A0486B026F97FC800FE4D50 /* MeteorMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorMapView.swift; sourceTree = "<group>"; };
+		8A10F9D526FC235600A0D8BB /* MeteorModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorModelTest.swift; sourceTree = "<group>"; };
+		8A10F9D726FC2F8000A0D8BB /* MeteorViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorViewModelTest.swift; sourceTree = "<group>"; };
+		8A2FB84C26F8C1D3003824E5 /* Amazing meteor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amazing meteor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FB84F26F8C1D3003824E5 /* Amazing_meteorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazing_meteorApp.swift; sourceTree = "<group>"; };
+		8A2FB85126F8C1D3003824E5 /* MeteorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorsView.swift; sourceTree = "<group>"; };
+		8A2FB85326F8C1D9003824E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A2FB85626F8C1D9003824E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A2FB85826F8C1D9003824E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2FB85D26F8C1D9003824E5 /* Amazing meteorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazing meteorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FB86126F8C1D9003824E5 /* Amazing_meteorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazing_meteorTests.swift; sourceTree = "<group>"; };
+		8A2FB86326F8C1D9003824E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2FB86826F8C1D9003824E5 /* Amazing meteorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazing meteorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FB86C26F8C1D9003824E5 /* Amazing_meteorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazing_meteorUITests.swift; sourceTree = "<group>"; };
+		8A2FB86E26F8C1D9003824E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2FB87B26F8C79E003824E5 /* MeteorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorModel.swift; sourceTree = "<group>"; };
+		8A2FB87D26F8C9A7003824E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8A645C9626FB695C00EC0658 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		8A645C9826FB697400EC0658 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		8A645C9A26FB699800EC0658 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		8A645C9C26FB69B600EC0658 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		8A645C9E26FB6A5400EC0658 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		8A645CA026FB6A8900EC0658 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		8A645CA226FB6B2500EC0658 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		8A645CA426FB6D9000EC0658 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		8A645CA626FB6F1E00EC0658 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		8AECA21C26FB1B7300E476F5 /* MeteorFavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorFavoritesView.swift; sourceTree = "<group>"; };
+		8AECA21E26FB3E3D00E476F5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8AF97B0E26FCAF4100ACB0A3 /* GeoLocationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocationTest.swift; sourceTree = "<group>"; };
+		8AFE99FD26FC6CEC006D103E /* StoreDataMgrTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDataMgrTest.swift; sourceTree = "<group>"; };
+		8AFFE81726FA3B5200F2033A /* MeteorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorViewModel.swift; sourceTree = "<group>"; };
+		A03505D76848303745436FFB /* Pods-Amazing meteor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazing meteor.release.xcconfig"; path = "Target Support Files/Pods-Amazing meteor/Pods-Amazing meteor.release.xcconfig"; sourceTree = "<group>"; };
+		B1B59E696FF17F79A09D6104 /* Pods-Amazing meteor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazing meteor.debug.xcconfig"; path = "Target Support Files/Pods-Amazing meteor/Pods-Amazing meteor.debug.xcconfig"; sourceTree = "<group>"; };
+		DEF2DB71180FC3F42D083B1A /* Pods-Amazing meteor-Amazing meteorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amazing meteor-Amazing meteorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Amazing meteor-Amazing meteorUITests/Pods-Amazing meteor-Amazing meteorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F808485C9BCDD107D82FB571 /* Pods_Amazing_meteor_Amazing_meteorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Amazing_meteor_Amazing_meteorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A2FB84926F8C1D3003824E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67A9A68B61850A2BBDB4271 /* Pods_Amazing_meteor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FB85A26F8C1D9003824E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E87C23A5598A066276DBCE17 /* Pods_Amazing_meteorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FB86526F8C1D9003824E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BE373FEDAD6F21742BC565 /* Pods_Amazing_meteor_Amazing_meteorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B214957C2DBCF1320441246 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B59E696FF17F79A09D6104 /* Pods-Amazing meteor.debug.xcconfig */,
+				A03505D76848303745436FFB /* Pods-Amazing meteor.release.xcconfig */,
+				DEF2DB71180FC3F42D083B1A /* Pods-Amazing meteor-Amazing meteorUITests.debug.xcconfig */,
+				45C6FE6CAD9B4EC99AFF8061 /* Pods-Amazing meteor-Amazing meteorUITests.release.xcconfig */,
+				76F7DDCC3617552AD5B37C16 /* Pods-Amazing meteorTests.debug.xcconfig */,
+				539E13E9C041583F6E149E42 /* Pods-Amazing meteorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A2FB84326F8C1D3003824E5 = {
+			isa = PBXGroup;
+			children = (
+				8A2FB84E26F8C1D3003824E5 /* Amazing meteor */,
+				8A2FB86026F8C1D9003824E5 /* Amazing meteorTests */,
+				8A2FB86B26F8C1D9003824E5 /* Amazing meteorUITests */,
+				8A2FB84D26F8C1D3003824E5 /* Products */,
+				5B214957C2DBCF1320441246 /* Pods */,
+				94E28ECF41B77F3D2E40F89F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2FB84D26F8C1D3003824E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FB84C26F8C1D3003824E5 /* Amazing meteor.app */,
+				8A2FB85D26F8C1D9003824E5 /* Amazing meteorTests.xctest */,
+				8A2FB86826F8C1D9003824E5 /* Amazing meteorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A2FB84E26F8C1D3003824E5 /* Amazing meteor */ = {
+			isa = PBXGroup;
+			children = (
+				8A645C9326FB687300EC0658 /* Extension */,
+				8A2FB87A26F8C768003824E5 /* Model */,
+				8A2FB84F26F8C1D3003824E5 /* Amazing_meteorApp.swift */,
+				8A2FB85126F8C1D3003824E5 /* MeteorsView.swift */,
+				8A2FB85326F8C1D9003824E5 /* Assets.xcassets */,
+				8A2FB85826F8C1D9003824E5 /* Info.plist */,
+				8A2FB85526F8C1D9003824E5 /* Preview Content */,
+				8A2FB87D26F8C9A7003824E5 /* CardView.swift */,
+				8A0486B026F97FC800FE4D50 /* MeteorMapView.swift */,
+				8AECA21C26FB1B7300E476F5 /* MeteorFavoritesView.swift */,
+				8AECA21E26FB3E3D00E476F5 /* MainView.swift */,
+			);
+			path = "Amazing meteor";
+			sourceTree = "<group>";
+		};
+		8A2FB85526F8C1D9003824E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FB85626F8C1D9003824E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A2FB86026F8C1D9003824E5 /* Amazing meteorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FB86126F8C1D9003824E5 /* Amazing_meteorTests.swift */,
+				8A2FB86326F8C1D9003824E5 /* Info.plist */,
+				8A10F9D526FC235600A0D8BB /* MeteorModelTest.swift */,
+				8A10F9D726FC2F8000A0D8BB /* MeteorViewModelTest.swift */,
+				8AFE99FD26FC6CEC006D103E /* StoreDataMgrTest.swift */,
+				8AF97B0E26FCAF4100ACB0A3 /* GeoLocationTest.swift */,
+			);
+			path = "Amazing meteorTests";
+			sourceTree = "<group>";
+		};
+		8A2FB86B26F8C1D9003824E5 /* Amazing meteorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A2FB86C26F8C1D9003824E5 /* Amazing_meteorUITests.swift */,
+				8A2FB86E26F8C1D9003824E5 /* Info.plist */,
+			);
+			path = "Amazing meteorUITests";
+			sourceTree = "<group>";
+		};
+		8A2FB87A26F8C768003824E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AFFE81726FA3B5200F2033A /* MeteorViewModel.swift */,
+				8A2FB87B26F8C79E003824E5 /* MeteorModel.swift */,
+				8A03651B26FACF42008F5B0F /* StoreDataMgr.swift */,
+				8A645C9E26FB6A5400EC0658 /* Place.swift */,
+				8A645CA026FB6A8900EC0658 /* GeoLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A645C9326FB687300EC0658 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8A645C9626FB695C00EC0658 /* Color+Extension.swift */,
+				8A645C9826FB697400EC0658 /* UIColor+Extension.swift */,
+				8A645C9A26FB699800EC0658 /* String+Extension.swift */,
+				8A645C9C26FB69B600EC0658 /* Date+Extension.swift */,
+				8A645CA226FB6B2500EC0658 /* Font+Extension.swift */,
+				8A645CA426FB6D9000EC0658 /* Int+Extension.swift */,
+				8A645CA626FB6F1E00EC0658 /* UIFont+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		94E28ECF41B77F3D2E40F89F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				375F3DA2D5B7FA79A9964F58 /* Pods_Amazing_meteor.framework */,
+				F808485C9BCDD107D82FB571 /* Pods_Amazing_meteor_Amazing_meteorUITests.framework */,
+				578E1F866D2D6CCB5B585DE6 /* Pods_Amazing_meteorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A2FB84B26F8C1D3003824E5 /* Amazing meteor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2FB87126F8C1D9003824E5 /* Build configuration list for PBXNativeTarget "Amazing meteor" */;
+			buildPhases = (
+				C31605925B6BC87F9D1C0566 /* [CP] Check Pods Manifest.lock */,
+				8A2FB84826F8C1D3003824E5 /* Sources */,
+				8A2FB84926F8C1D3003824E5 /* Frameworks */,
+				8A2FB84A26F8C1D3003824E5 /* Resources */,
+				3C883215B17219E59DD0A4B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amazing meteor";
+			productName = "Amazing meteor";
+			productReference = 8A2FB84C26F8C1D3003824E5 /* Amazing meteor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A2FB85C26F8C1D9003824E5 /* Amazing meteorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2FB87426F8C1D9003824E5 /* Build configuration list for PBXNativeTarget "Amazing meteorTests" */;
+			buildPhases = (
+				D48101BC8627D050403D45EF /* [CP] Check Pods Manifest.lock */,
+				8A2FB85926F8C1D9003824E5 /* Sources */,
+				8A2FB85A26F8C1D9003824E5 /* Frameworks */,
+				8A2FB85B26F8C1D9003824E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A2FB85F26F8C1D9003824E5 /* PBXTargetDependency */,
+			);
+			name = "Amazing meteorTests";
+			productName = "Amazing meteorTests";
+			productReference = 8A2FB85D26F8C1D9003824E5 /* Amazing meteorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A2FB86726F8C1D9003824E5 /* Amazing meteorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A2FB87726F8C1D9003824E5 /* Build configuration list for PBXNativeTarget "Amazing meteorUITests" */;
+			buildPhases = (
+				09379D8C78699FF11417A76E /* [CP] Check Pods Manifest.lock */,
+				8A2FB86426F8C1D9003824E5 /* Sources */,
+				8A2FB86526F8C1D9003824E5 /* Frameworks */,
+				8A2FB86626F8C1D9003824E5 /* Resources */,
+				21175D966CB177EF21FFA82A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A2FB86A26F8C1D9003824E5 /* PBXTargetDependency */,
+			);
+			name = "Amazing meteorUITests";
+			productName = "Amazing meteorUITests";
+			productReference = 8A2FB86826F8C1D9003824E5 /* Amazing meteorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A2FB84426F8C1D3003824E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8A2FB84B26F8C1D3003824E5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					8A2FB85C26F8C1D9003824E5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8A2FB84B26F8C1D3003824E5;
+					};
+					8A2FB86726F8C1D9003824E5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8A2FB84B26F8C1D3003824E5;
+					};
+				};
+			};
+			buildConfigurationList = 8A2FB84726F8C1D3003824E5 /* Build configuration list for PBXProject "Amazing meteor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A2FB84326F8C1D3003824E5;
+			productRefGroup = 8A2FB84D26F8C1D3003824E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A2FB84B26F8C1D3003824E5 /* Amazing meteor */,
+				8A2FB85C26F8C1D9003824E5 /* Amazing meteorTests */,
+				8A2FB86726F8C1D9003824E5 /* Amazing meteorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A2FB84A26F8C1D3003824E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2FB85726F8C1D9003824E5 /* Preview Assets.xcassets in Resources */,
+				8A2FB85426F8C1D9003824E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FB85B26F8C1D9003824E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FB86626F8C1D9003824E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09379D8C78699FF11417A76E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amazing meteor-Amazing meteorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21175D966CB177EF21FFA82A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amazing meteor-Amazing meteorUITests/Pods-Amazing meteor-Amazing meteorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amazing meteor-Amazing meteorUITests/Pods-Amazing meteor-Amazing meteorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amazing meteor-Amazing meteorUITests/Pods-Amazing meteor-Amazing meteorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C883215B17219E59DD0A4B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amazing meteor/Pods-Amazing meteor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Amazing meteor/Pods-Amazing meteor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Amazing meteor/Pods-Amazing meteor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31605925B6BC87F9D1C0566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amazing meteor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D48101BC8627D050403D45EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Amazing meteorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A2FB84826F8C1D3003824E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0486B126F97FC800FE4D50 /* MeteorMapView.swift in Sources */,
+				8A03651C26FACF42008F5B0F /* StoreDataMgr.swift in Sources */,
+				8A645C9926FB697400EC0658 /* UIColor+Extension.swift in Sources */,
+				8A645CA526FB6D9000EC0658 /* Int+Extension.swift in Sources */,
+				8AECA21F26FB3E3D00E476F5 /* MainView.swift in Sources */,
+				8AECA21D26FB1B7300E476F5 /* MeteorFavoritesView.swift in Sources */,
+				8A645CA726FB6F1E00EC0658 /* UIFont+Extension.swift in Sources */,
+				8A645C9F26FB6A5400EC0658 /* Place.swift in Sources */,
+				8A645C9B26FB699800EC0658 /* String+Extension.swift in Sources */,
+				8A2FB85226F8C1D3003824E5 /* MeteorsView.swift in Sources */,
+				8AFFE81826FA3B5200F2033A /* MeteorViewModel.swift in Sources */,
+				8A2FB85026F8C1D3003824E5 /* Amazing_meteorApp.swift in Sources */,
+				8A2FB87E26F8C9A7003824E5 /* CardView.swift in Sources */,
+				8A645C9D26FB69B600EC0658 /* Date+Extension.swift in Sources */,
+				8A645CA126FB6A8900EC0658 /* GeoLocation.swift in Sources */,
+				8A645C9726FB695C00EC0658 /* Color+Extension.swift in Sources */,
+				8A645CA326FB6B2500EC0658 /* Font+Extension.swift in Sources */,
+				8A2FB87C26F8C79E003824E5 /* MeteorModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FB85926F8C1D9003824E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A10F9D826FC2F8000A0D8BB /* MeteorViewModelTest.swift in Sources */,
+				8AF97B0F26FCAF4100ACB0A3 /* GeoLocationTest.swift in Sources */,
+				8A2FB86226F8C1D9003824E5 /* Amazing_meteorTests.swift in Sources */,
+				8AFE99FE26FC6CEC006D103E /* StoreDataMgrTest.swift in Sources */,
+				8A10F9D626FC235600A0D8BB /* MeteorModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2FB86426F8C1D9003824E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A2FB86D26F8C1D9003824E5 /* Amazing_meteorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A2FB85F26F8C1D9003824E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A2FB84B26F8C1D3003824E5 /* Amazing meteor */;
+			targetProxy = 8A2FB85E26F8C1D9003824E5 /* PBXContainerItemProxy */;
+		};
+		8A2FB86A26F8C1D9003824E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A2FB84B26F8C1D3003824E5 /* Amazing meteor */;
+			targetProxy = 8A2FB86926F8C1D9003824E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A2FB86F26F8C1D9003824E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A2FB87026F8C1D9003824E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A2FB87226F8C1D9003824E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B59E696FF17F79A09D6104 /* Pods-Amazing meteor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Amazing meteor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Amazing meteor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.Amazing-meteor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A2FB87326F8C1D9003824E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A03505D76848303745436FFB /* Pods-Amazing meteor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Amazing meteor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Amazing meteor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.Amazing-meteor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A2FB87526F8C1D9003824E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F7DDCC3617552AD5B37C16 /* Pods-Amazing meteorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amazing meteorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.Amazing-meteorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazing meteor.app/Amazing meteor";
+			};
+			name = Debug;
+		};
+		8A2FB87626F8C1D9003824E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 539E13E9C041583F6E149E42 /* Pods-Amazing meteorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amazing meteorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.Amazing-meteorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazing meteor.app/Amazing meteor";
+			};
+			name = Release;
+		};
+		8A2FB87826F8C1D9003824E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF2DB71180FC3F42D083B1A /* Pods-Amazing meteor-Amazing meteorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amazing meteorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.Amazing-meteorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amazing meteor";
+			};
+			name = Debug;
+		};
+		8A2FB87926F8C1D9003824E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C6FE6CAD9B4EC99AFF8061 /* Pods-Amazing meteor-Amazing meteorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Amazing meteorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.Amazing-meteorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amazing meteor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A2FB84726F8C1D3003824E5 /* Build configuration list for PBXProject "Amazing meteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2FB86F26F8C1D9003824E5 /* Debug */,
+				8A2FB87026F8C1D9003824E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2FB87126F8C1D9003824E5 /* Build configuration list for PBXNativeTarget "Amazing meteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2FB87226F8C1D9003824E5 /* Debug */,
+				8A2FB87326F8C1D9003824E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2FB87426F8C1D9003824E5 /* Build configuration list for PBXNativeTarget "Amazing meteorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2FB87526F8C1D9003824E5 /* Debug */,
+				8A2FB87626F8C1D9003824E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A2FB87726F8C1D9003824E5 /* Build configuration list for PBXNativeTarget "Amazing meteorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A2FB87826F8C1D9003824E5 /* Debug */,
+				8A2FB87926F8C1D9003824E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A2FB84426F8C1D3003824E5 /* Project object */;
+}

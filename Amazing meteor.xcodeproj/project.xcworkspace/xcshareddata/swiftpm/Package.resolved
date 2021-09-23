@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NavigationKit",
+        "repositoryURL": "https://github.com/rebeloper/NavigationKit.git",
+        "state": {
+          "branch": null,
+          "revision": "9fc0dea7c57c6671c087f23361d7fe3493ffaa1c",
+          "version": "0.4.10"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
